@@ -1,0 +1,587 @@
+@media (max-width:1339px){
+    #future{
+        background-image: url('./img/future.jpg');
+        background-position: center left;
+    }
+    #product{
+        background-image: url('./img/the-product.jpg');
+        background-position: center left;
+    }
+    #collection{
+        background-position: right;
+    }
+}
+
+@media (max-width:1221px){
+    #future{
+        padding: 200px;
+    }
+    #future .content{
+        margin-left: 400px;
+    }
+    #product{
+        background-image: url('./img/the-product.jpg');
+        padding: 200px;
+    }
+    #collection{
+        background-position: right;
+        padding: 130px;
+    }
+    #collection .container{
+        margin-right: 600px;
+        width: 40%;
+    }
+    #overview{
+        background-image: url('./img/the-watch.jpg');
+        padding: 80px;
+    }
+    #overview .content{
+        margin-left: 500px;
+        width: 50%;
+    }
+    #apps .img{
+        padding: 130px;
+    }
+    #apps .content{
+        padding: 15px;
+    }
+    #fitness .img{
+        padding: 130px;
+    }
+    #fitness .content{
+        padding: 15px;
+    }
+}
+
+@media (max-width:1080px){
+    #future{
+        background-position: center left;
+        padding: 180px;
+    }
+    #product{
+        padding: 180px;
+    }
+    #product .content{
+        margin-left: 400px; 
+        color: white;
+        animation-name: product-content;
+        animation-duration: 3s;
+    }
+    @keyframes product-content{
+        0%{margin-left: 900px;}
+        100%{margin-left: 450px;}
+    }
+    #benefits li{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #collection{
+        background-position: center;
+        padding: 110px;
+    }
+    #collection .container{
+        width: 45%;
+    }
+    #overview{
+        padding: 60px;
+    }
+    #overview .content{
+        margin-left: 500px;
+        width: 60%;
+    }
+    #apps .img{
+        padding: 110px;
+    }
+    #apps .content{
+        padding: 10px;
+    }
+    #fitness .img{
+        padding: 110px;
+    }
+    #fitness .content{
+        padding: 10px;
+    }
+}
+
+@media (max-width:1020px){
+    #future{
+        background-size: cover;
+        padding: 160px;
+    }
+    #future .content{
+        margin-left: 350px;
+        width: 60%;
+    }
+    @keyframes future-content{
+        0%{margin-left:0px;}
+        100%{margin-left: 400px;}
+    }
+    #product{
+        background-size: cover;
+        padding: 160px;
+    }
+    #product .content{
+        margin-left: 350px; 
+    }
+    @keyframes product-content{
+        0%{margin-left: 900px;}
+        100%{margin-left: 400px;}
+    }
+    #collection{
+        background-size: cover;
+        padding: 110px;
+    }
+    #collection .container{
+        width: 60%;
+    }
+    #overview{
+        background-size: cover;
+        padding: 40px;
+    }
+    #overview .content{
+        margin-left: 450px;
+        width: 60%;
+    }
+    #apps .img{
+        padding: 90px;
+    }
+    #apps .content{
+        padding: 10px;
+    }
+    #fitness .img{
+        padding: 90px;
+    }
+    #fitness .content{
+        padding: 10px;
+    }
+}
+
+@media (max-width:935px){
+    #future{
+        padding: 140px;
+    }
+    #future .content{
+        margin-left: 400px;
+        width: 70%;
+    }
+    @keyframes future-content{
+        0%{margin-left:0px;}
+        100%{margin-left: 400px;}
+    }
+    #product{
+        padding: 140px;
+    }
+    #product .content{
+        margin-left: 350px; 
+        width: 50%;
+    }
+    @keyframes product-content{
+        0%{margin-left: 900px;}
+        100%{margin-left: 350px;}
+    }
+    #collection{
+        padding: 90px;
+    }
+    #collection .container{
+        width: 50%;
+    }
+    #overview .content{
+        margin-left: 350px;
+        width: 70%;
+    }
+    #apps .img{
+        padding: 70px;
+    }
+    #apps .content{
+        padding: 10px;
+    }
+    #fitness .img{
+        padding: 70px;
+    }
+    #fitness .content{
+        padding: 10px;
+    }
+}
+
+@media (max-width:820px){
+    #future{
+        padding: 120px;
+    }
+    #future .content{
+        margin-left: 380px;
+        width: 100%;
+    }
+    @keyframes future-content{
+        0%{margin-left:0px;}
+        100%{margin-left: 380px;}
+    }
+    #product{
+        padding: 120px;
+    }
+    #benefits ul{
+        flex-wrap: wrap;
+    }
+    #collection{
+        padding: 70px;
+    }
+    #collection .container{
+        width: 50%;
+    }
+    #overview .content{
+        margin-left: 350px;
+        width: 70%;
+    }
+    #apps .img{
+        padding: 50px;
+    }
+    #fitness .img{
+        padding: 50px;
+    }
+}
+
+@media (max-width:785px){
+    .menu{
+        display: block;
+    }
+    .navbar-right.slide{
+        transform: translateX(0px);
+        transition: 2s;
+    }
+    .navbar-right{
+        position: absolute;
+        top: 50px;
+        display: block;
+        z-index: 1;
+        padding: 10px;
+        background-color: white;
+        opacity: 0.7;
+        width: 40%;
+        height: 50vh;
+        left: 0;
+        transform: translateX(-400px);
+        transition: 2s;
+    }
+    .navbar-right a{
+        padding: 0px;
+        font-size: 30px;
+        border-bottom: 1px solid #333;
+    }
+    .navbar-right a:hover{
+        text-decoration: none;
+        font-size: 31px;
+        transition: 1s;
+    }
+    .navbar .badge{
+        margin-top: 10px;
+        width: 50%;
+    }
+    .navbar .badge a{
+        font-size: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar .badge a:hover{
+        text-decoration: underline;
+        font-size: 21px;
+        transition: 1s;
+    }
+    #future{
+        padding: 100px;
+        background-size: cover;
+    }
+    #future .content{
+        margin-left: 350px;
+        width: 100%;
+    }
+    @keyframes future-content{
+        0%{margin-left:0px;}
+        100%{margin-left: 350px;}
+    }
+    #product{
+        padding: 100px;
+    }
+    #product .content{
+        margin-left: 300px; 
+        width: 100%;
+    }
+    @keyframes product-content{
+        0%{margin-left: 900px;}
+        100%{margin-left: 300px;}
+    }
+    #collection{
+        padding: 50px;
+    }
+    #apps{
+        background-image: url('./img/app.jpg');
+        background-size: cover;
+        color: black;
+    }
+    #apps .img{
+        display: none;
+    }
+    #apps .content{
+        width: 50%;
+        padding: 20px;
+        margin-left: 350px;
+        background-color: white;
+        opacity: 0.7;
+    }
+    #fitness{
+        background-image: url('./img/fitness.jpg');
+        background-size: cover;
+        color: white;
+        margin-top: 50px;
+    }
+    #fitness .img{
+        display: none;
+    }
+    #fitness .content{
+        width: 50%;
+        padding: 20px;
+        background-color: black;
+        opacity: 0.7;
+    }
+}
+
+@media (max-width:720px){
+    #future{
+        padding: 0px;
+    }
+    #future .content{
+        margin-left: 250px;
+    }
+    @keyframes future-content{
+        0%{margin-left:0px;}
+        100%{margin-left: 250px;}
+    }
+    #product{
+        padding: 70px;
+    }
+    #product .content{
+        margin-left: 300px; 
+        width: 100%;
+    }
+    @keyframes product-content{
+        0%{margin-left: 900px;}
+        100%{margin-left: 300px;}
+    }
+    #how{
+        display: none;
+    }
+    #specs .container{
+        flex-wrap: wrap;
+    }
+    #collection{
+        padding: 10px;
+    }
+    #overview{
+        padding: 10px;
+    }
+    #overview .content{
+        margin-left: 300px;
+    }
+    #apps .content{
+        margin-left: 250px;
+    }
+}
+
+@media (max-width:617px){
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 13px;
+    }
+    #future .content{
+        margin-left: 250px;
+    }
+    @keyframes future-content{
+        0%{margin-left:0px;}
+        100%{margin-left: 250px;}
+    }
+    .navbar-right{
+        width: 50%;
+    }
+    #product{
+        padding: 5px;
+    }
+    #product .content{
+        margin-left: 250px; 
+        width: 100%;
+    }
+    @keyframes product-content{
+        0%{margin-left: 0px;}
+        100%{margin-left: 250px;}
+    }
+    #how{
+        display: none;
+    }
+    #specs .container{
+        flex-wrap: wrap;
+    }
+    #collection{
+        padding: 10px;
+    }
+    #overview{
+        padding: 10px;
+    }
+    #overview i{
+        font-size: 15px;
+    }
+    #overview .content{
+        margin-left: 250px;
+    }
+}
+
+@media (max-width:576px){
+    #future {
+        background-image: none;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+    #future .img{
+        background-image: url('./img/future.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+    }
+    #future .content{
+        padding: 20px;
+        margin-left: 0px;
+    }
+    @keyframes future-content{
+        0%{margin-left:-50px;}
+        100%{margin-left: 0px;}
+    }
+    #product {
+        background-image: none;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    #product .img{
+        background-image: url('./img/the-product.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+    }
+    #product .content{
+        margin-left: 0px; 
+        padding: 20px;
+    }
+    @keyframes product-content{
+        0%{margin-left: -50px;}
+        100%{margin-left: 0px;}
+    }
+    #collection {
+        background-image: none;
+        padding: 20;
+        background-color: whitesmoke;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #collection .img{
+        background-image: url('./img/collection.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+    }
+    #overview {
+        background-image: none;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+    #overview .img{
+        background-image: url('./img/the-watch.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 100px;
+    }
+    #overview .content{
+        margin-left: 0px; 
+        padding: 20px;
+        width: 100%;
+    }
+    #apps{
+        padding: 0;
+        background-color: whitesmoke;
+    }
+    #apps .img2{
+        background-image: url('./img/app.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 0px;
+    }
+    #apps .img{
+        background-image: none;
+        padding: 0;
+    }
+    #apps .content{
+        margin-left: 0px; 
+        padding: 20px;
+        width: 100%;
+    }
+    #fitness{
+        padding: 0;
+        background-color: whitesmoke;
+    }
+    #fitness .img2{
+        background-image: url('./img/app.jpg');
+        background-size: cover;
+        background-position: center;
+        padding: 0px;
+    }
+    #fitness .img{
+        background-image: none;
+        padding: 0;
+    }
+    #fitness .content{
+        margin-left: 0px; 
+        padding: 20px;
+        width: 100%;
+    }
+    #details{
+        padding: 35px;
+    }
+}
+
+@media (max-width:512px){
+    .navbar-right{
+        width: 80%;
+    }
+}
+
+@media (max-width:480px){
+    h4, h5{
+        font-size: 20px;
+    }
+    #product {
+        background-color: white;
+    }
+    #product .content{
+        color: black;
+        margin-bottom: 0px;
+    }
+    #collection .img{
+        background-position: center right;
+    }
+    #overview .img{
+        background-position: center left;
+    }
+    #newsletter span{
+        font-size: 10px;
+    }
+    #newsletter .content{
+        margin-top: 10px;
+    }
+    #socials ul{
+        flex-wrap: wrap;
+    }
+    #links ul{
+        font-size: 10px;
+        flex-wrap: wrap;
+    }
+    footer h5{
+        font-size: 15px;
+    }
+
+}
