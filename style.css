@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+.navbar{
+    background-color: whitesmoke;
+    animation-name: navbar;
+    animation-duration: 2s;
+}
+@keyframes navbar{
+    0%{background-color: transparent;}
+    100%{background-color: whitesmoke;}
+}
+.navbar a{
+    color: black;
+    font-size: 15px;
+    transition: 3s;
+}
+.navbar-brand{
+    padding: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.navbar-brand i{
+    font-weight: bold;
+}
+.menu{
+    display: none;
+}
+.navbar-right li{
+    margin-inline: 10px;
+}
+.navbar-right a:hover{
+    text-decoration: underline 3px solid black;
+    transition: 5000ms ease-in-out;
+}
+.navbar .badge{
+    border-radius: 10px;
+}
+.navbar .badge a{
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#future{
+    background-image: url('./img/future.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+    padding: 220px;
+    animation-name: image;
+    animation-duration: 5s;
+}
+@keyframes image{
+    0%{margin-top: -150px;}
+    100%{margin-top: 0px;}
+}
+#future .content{
+    margin-left: 500px;
+    animation-name: future-content;
+    animation-duration: 3s;
+}
+@keyframes future-content{
+    0%{margin-left:0px;}
+    100%{margin-left: 500px;}
+}
+#future .btn{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#future .btn:hover{
+    background-color: black;
+    color: white;
+}
+#future .btn:active{
+    background-color: white;
+    color: black;
+}
+#product{
+    background-image: url('./img/the-product.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 220px;
+    animation-name: product-image;
+    animation-duration: 5s;
+}
+@keyframes product-image{
+    0%{margin-left: -100px;}
+    100%{margin-left: 0px;}
+}
+#product .content{
+    margin-left: 520px; 
+    color: white;
+    animation-name: product-content;
+    animation-duration: 3s;
+}
+@keyframes product-content{
+    0%{margin-left: 1000px;}
+    100%{margin-left: 520px;}
+}
+#product a{
+    font-weight: bold;
+}
+#product a:hover{
+    text-decoration: underline 3px white;
+    transition: ease-in 3s;
+}
+#how h3{
+    font-weight: bold;
+}
+#benefits{
+    margin-top: 50px;
+}
+#benefits li{
+    list-style: none;
+}
+#benefits h5{
+    font-weight: bold;
+}
+#benefits i{
+    color: purple;
+}
+#specs{
+    margin-bottom: 20px;
+}
+#specs li{
+    list-style: none;
+}
+#specs h5{
+    font-weight: bold;
+}
+#specs i{
+    color: purple;
+}
+#collection{
+    margin-bottom: 100px;
+    background-image: url('./img/collection.jpg');
+    background-size: cover;
+    padding: 150px;
+}
+#collection .container{
+    margin-right: 500px;
+    width: 50%;
+}
+#collection li{
+    list-style: none;
+}
+#collection .btn{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#collection .btn:hover{
+    background-color: black;
+    color: white;
+}
+#collection .btn:active{
+    background-color: white;
+    color: black;
+}
+#overview{
+    background-image: url('./img/the-watch.jpg');
+    background-size: cover;
+    padding: 100px;
+    margin-bottom: 80px;
+}
+#overview .content{
+    margin-left: 600px;
+    width: 50%;
+}
+#overview li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#overview i{
+    font-size: 25px;
+}
+#apps{
+    background-color: whitesmoke;
+}
+#apps .img{
+    width: 50%;
+    float: left;
+    background-image: url('./img/app.jpg');
+    background-size: cover;
+    padding: 150px;
+}
+#apps h4{
+    font-weight: bold;
+}
+#apps .content{
+    float: right;
+    text-align: start;
+    width: 30%;
+    padding: 20px;
+}
+#fitness{
+    background-color: whitesmoke;
+}
+#fitness .img{
+    width: 50%;
+    float: right;
+    background-image: url('./img/fitness.jpg');
+    background-size: cover;
+    padding: 150px;
+}
+#fitness h4{
+    font-weight: bold;
+}
+#fitness .content{
+    float: left;
+    text-align: start;
+    width: 30%;
+    padding: 20px;
+    margin-left: 20%;
+}
+#details .d-flex{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#details li{
+    list-style: none;
+}
+#details h4{
+    font-weight: bold;
+}
+#newsletter a{
+    font-weight: bold;
+}
+.form-control{
+    width: 50%;
+}
+#socials li{
+    list-style: none;
+    margin-inline: 5px;
+}
+#links li{
+    list-style: none;
+    margin-inline: 5px;
+}
+#links a{
+    font-weight: bold;
+}
+footer{
+    background-color: whitesmoke;
+}
+footer h5{
+    font-weight: bold;
+}
