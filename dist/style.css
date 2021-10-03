@@ -8,18 +8,21 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 h1{
     font-weight: bold;
 }
 .navbar{
     background-color: whitesmoke;
-    animation-name: navbar;
-    animation-duration: 2s;
 }
-@keyframes navbar{
-    0%{background-color: transparent;}
-    100%{background-color: whitesmoke;}
+.fade-in {
+    transition: 1000ms ease-in;
+    opacity: 0;
+}
+
+.fade-in.appear {
+    opacity: 1;
 }
 .navbar a{
     color: black;
@@ -59,22 +62,29 @@ h1{
     background-size: cover;
     margin-bottom: 50px;
     padding: 220px;
-    animation-name: image;
-    animation-duration: 5s;
 }
-@keyframes image{
-    0%{margin-top: -150px;}
-    100%{margin-top: 0px;}
+.from-left{
+    transform: translateX(-50%);
 }
+
+.from-right{
+    transform: translateX(50%);
+}
+
+.from-left, .from-right {
+    transition: opacity 300ms ease-in, transform 600ms ease-in;
+    opacity: 0;
+}
+
+.from-left.appear, .from-right.appear {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 #future .content{
     margin-left: 500px;
-    animation-name: future-content;
-    animation-duration: 3s;
 }
-@keyframes future-content{
-    0%{margin-left:0px;}
-    100%{margin-left: 500px;}
-}
+
 #future .btn{
     background-color: transparent;
     border-radius: 10px;
@@ -93,23 +103,13 @@ h1{
     background-position: center;
     background-size: cover;
     padding: 220px;
-    animation-name: product-image;
-    animation-duration: 5s;
 }
-@keyframes product-image{
-    0%{margin-left: -100px;}
-    100%{margin-left: 0px;}
-}
+
 #product .content{
     margin-left: 520px; 
     color: white;
-    animation-name: product-content;
-    animation-duration: 3s;
 }
-@keyframes product-content{
-    0%{margin-left: 1000px;}
-    100%{margin-left: 520px;}
-}
+
 #product a{
     font-weight: bold;
 }
