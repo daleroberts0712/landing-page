@@ -62,14 +62,8 @@
         padding: 180px;
     }
     #product .content{
-        margin-left: 400px; 
+        margin-left: 450px; 
         color: white;
-        animation-name: product-content;
-        animation-duration: 3s;
-    }
-    @keyframes product-content{
-        0%{margin-left: 900px;}
-        100%{margin-left: 450px;}
     }
     #benefits li{
         display: flex;
@@ -112,10 +106,6 @@
         margin-left: 350px;
         width: 60%;
     }
-    @keyframes future-content{
-        0%{margin-left:0px;}
-        100%{margin-left: 400px;}
-    }
     #product{
         background-size: cover;
         padding: 160px;
@@ -123,10 +113,7 @@
     #product .content{
         margin-left: 350px; 
     }
-    @keyframes product-content{
-        0%{margin-left: 900px;}
-        100%{margin-left: 400px;}
-    }
+
     #collection{
         background-size: cover;
         padding: 110px;
@@ -164,10 +151,7 @@
         margin-left: 400px;
         width: 70%;
     }
-    @keyframes future-content{
-        0%{margin-left:0px;}
-        100%{margin-left: 400px;}
-    }
+
     #product{
         padding: 140px;
     }
@@ -175,10 +159,7 @@
         margin-left: 350px; 
         width: 50%;
     }
-    @keyframes product-content{
-        0%{margin-left: 900px;}
-        100%{margin-left: 350px;}
-    }
+
     #collection{
         padding: 90px;
     }
@@ -211,10 +192,7 @@
         margin-left: 380px;
         width: 100%;
     }
-    @keyframes future-content{
-        0%{margin-left:0px;}
-        100%{margin-left: 380px;}
-    }
+
     #product{
         padding: 120px;
     }
@@ -293,10 +271,7 @@
         margin-left: 350px;
         width: 100%;
     }
-    @keyframes future-content{
-        0%{margin-left:0px;}
-        100%{margin-left: 350px;}
-    }
+
     #product{
         padding: 100px;
     }
@@ -304,10 +279,7 @@
         margin-left: 300px; 
         width: 100%;
     }
-    @keyframes product-content{
-        0%{margin-left: 900px;}
-        100%{margin-left: 300px;}
-    }
+
     #collection{
         padding: 50px;
     }
@@ -345,15 +317,12 @@
 
 @media (max-width:720px){
     #future{
-        padding: 0px;
+        padding: 80px;
     }
     #future .content{
-        margin-left: 250px;
+        margin-left: 340px;
     }
-    @keyframes future-content{
-        0%{margin-left:0px;}
-        100%{margin-left: 250px;}
-    }
+
     #product{
         padding: 70px;
     }
@@ -361,10 +330,7 @@
         margin-left: 300px; 
         width: 100%;
     }
-    @keyframes product-content{
-        0%{margin-left: 900px;}
-        100%{margin-left: 300px;}
-    }
+
     #how{
         display: none;
     }
@@ -395,10 +361,7 @@
     #future .content{
         margin-left: 250px;
     }
-    @keyframes future-content{
-        0%{margin-left:0px;}
-        100%{margin-left: 250px;}
-    }
+
     .navbar-right{
         width: 50%;
     }
@@ -409,10 +372,7 @@
         margin-left: 250px; 
         width: 100%;
     }
-    @keyframes product-content{
-        0%{margin-left: 0px;}
-        100%{margin-left: 250px;}
-    }
+
     #how{
         display: none;
     }
@@ -449,10 +409,7 @@
         padding: 20px;
         margin-left: 0px;
     }
-    @keyframes future-content{
-        0%{margin-left:-50px;}
-        100%{margin-left: 0px;}
-    }
+
     #product {
         background-image: none;
         padding: 0;
@@ -468,10 +425,7 @@
         margin-left: 0px; 
         padding: 20px;
     }
-    @keyframes product-content{
-        0%{margin-left: -50px;}
-        100%{margin-left: 0px;}
-    }
+
     #collection {
         background-image: none;
         padding: 20;
